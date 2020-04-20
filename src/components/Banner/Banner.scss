@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  
+  
+  .banner-wrapper {
+    flex-direction: column;
+    align-content: center;
+}
+  .banner-title {
+    font-family: KaushanScript;
+    font-size: 130px;
+    letter-spacing: 3px;
+    line-height: 1;
+  }
+  .sm-title {
+    font-family: NeutronLight;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 0.7;
+
+  }
+
+  .md-title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: NeutronLighter;
+    font-size: 17px;
+    text-align: end;
+    opacity: 0.7;
+  }
+}

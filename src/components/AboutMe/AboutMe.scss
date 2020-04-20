@@ -1,0 +1,22 @@
+#about-me {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  .intro {
+    font-family: NeutronBold;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .about-me-msg {
+    font-family: NeutronLight;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+  }
+}

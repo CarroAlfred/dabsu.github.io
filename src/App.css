@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'KaushanScript';
+  src: url(./assets/fonts/KaushanScript-Regular.ttf) format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'NeutronBold';
+  src: url(./assets/fonts/Neuton-Bold.ttf) format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'NeutronBolder';
+  src: url(./assets/fonts/Neuton-ExtraBold.ttf) format('truetype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'NeutronLighter';
+  src: url(./assets/fonts/Neuton-ExtraBold.ttf) format('truetype');
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Neutron';
+  src: url(./assets/fonts/Neuton-Regular.ttf) format('truetype');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'NeutronLight';
+  src: url(./assets/fonts/Neuton-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NeutronLighter';
+  src: url(./assets/fonts/Neuton-ExtraLight.ttf) format('truetype');
 }
